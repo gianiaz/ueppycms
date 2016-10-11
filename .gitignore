@@ -1,6 +1,5 @@
 ueppy-stats-39811a8013c7.json
 logs/
-utility/
 bower_components/
 vendor/
 public_html/.htaccess
@@ -9,3 +8,8 @@ public_html/media/operatori/
 public_html/media/smarty/
 .idea/
 public_html/conf/config.php
+/public_html/utility/db/spianachiavimodulo.php
+/public_html/utility/db/create_conf_file_from_table.php
+/public_html/utility/db/create_table_sql.php
+/public_html/utility/.htaccess
+/public_html/utility/.htpasswd
