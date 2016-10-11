@@ -1,0 +1,96 @@
+{
+  "news": {
+    "title": "News, elenco e dettaglio",
+    "casi": {
+      "tag": {
+        "label": "Pagina di elenco dei tags",
+        "vars": [
+          {
+            "var": "TAG",
+            "help": "Verrà sostituito con il nome del tag cercato"
+          },
+          {
+            "var": "PAG",
+            "help": "Verrà sostituito con il numero della pagina"
+          }
+        ],
+        "htmltitle": "",
+        "description": ""
+      },
+      "list": {
+        "label": "Pagina di elenco",
+        "vars": [
+          {
+            "var": "CATEGORY",
+            "help": "Verrà sostituito con il nome della categoria principale"
+          },
+          {
+            "var": "PAG",
+            "help": "Verrà sostituito con il numero della pagina"
+          }
+        ],
+        "htmltitle": "",
+        "description": ""
+      },
+      "read": {
+        "label": "Pagina di dettaglio delle news",
+        "vars": [
+          {
+            "var": "CATEGORY",
+            "help": "Verrà sostituito con il nome della categoria principale"
+          },
+          {
+            "var": "TITOLO",
+            "help": "Verrà sostituito con il titolo della news"
+          }
+        ],
+        "htmltitle": "",
+        "description": ""
+      }
+    }
+  },
+  "catalogo": {
+    "title": "Pagina di contenuto delle categorie",
+    "casi": {
+      "list": {
+        "label": "Pagina di elenco",
+        "vars": [
+          {
+            "var": "NAME",
+            "help": "Verrà sostituito con il nome della categoria"
+          }
+        ],
+        "htmltitle": "",
+        "description": ""
+      }
+    }
+  },
+  "prodotti": {
+    "title": "Prodotti",
+    "casi": {
+      "read": {
+        "label": "Pagina di dettaglio",
+        "vars": [
+          {
+            "var": "NOME",
+            "help": "Nome del prodotto"
+          },
+          {
+            "var": "CATEGORIA_PRINCIPALE",
+            "help": "Categoria principale a cui appartiene il prodotto"
+          },
+          {
+            "var": "PREZZO",
+            "help": "Miglior prezzo del prodotto"
+          },
+          {
+            "var": "CODICE",
+            "help": "Codice del del prodotto"
+          }
+        ],
+        "htmltitle": "",
+        "description": ""
+      }
+    }
+  }
+}

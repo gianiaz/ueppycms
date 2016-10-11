@@ -1,0 +1,68 @@
+{
+  "generali": [
+    {
+      "help": "Specificare il nome del gruppo per cui estrarre la vetrina",
+      "type": "text",
+      "label": "Nome gruppo",
+      "default": "default",
+      "var": "gruppo"
+    },
+    {
+      "help": "Tempo di visualizzazione della singola diapositiva espresso in secondi",
+      "type": "text",
+      "label": "Pausa (sec.)",
+      "default": "3",
+      "var": "pause"
+    },
+    {
+      "help": "Durata della transizione che porta da una diapositiva all'altra espresso in secondi (sono accettate anche frazioni di secondo)",
+      "type": "text",
+      "label": "Transizione (sec.)",
+      "default": 1,
+      "var": "transizione"
+    },
+    {
+      "help": "Spunta per evitare il caching del modulo, ricordati di attivarlo se usi l'ordinamento casuale",
+      "type": "boolean",
+      "label": "Disabilitare cache",
+      "default": 0,
+      "var": "no_cache"
+    },
+    {
+      "help": "Spunta per abilitare debug, solo per intenditori!",
+      "type": "boolean",
+      "label": "Abilita debug",
+      "default": 0,
+      "var": "debug"
+    }
+  ],
+  "multilingua": [
+    {
+      "type": "text",
+      "label": "Titolo",
+      "help": "Inserisci un titolo per il modulo nelle diverse lingue",
+      "default": "",
+      "var": "title"
+    },
+    {
+      "type": "text",
+      "label": "Link titolo",
+      "help": "Inserisci un url a cui linkare in caso di click sul titolo",
+      "default": "",
+      "var": "url"
+    },
+    {
+      "type": "textarea",
+      "label": "Descrizione",
+      "help": "Inserisci un'eventuale testo introduttivo",
+      "default": "",
+      "var": "testo"
+    }
+  ],
+  "meta": {
+    "nome": "Vetrina con Slider",
+    "info": "Mostra un elenco di diapositive direttamente dal modulo gestione vetrina",
+    "author": "Giovanni Battista Lenoci - gianiaz@gmail.com",
+    "duplicabile": 1
+  }
+}

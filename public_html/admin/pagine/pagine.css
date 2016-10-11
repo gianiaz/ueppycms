@@ -1,0 +1,35 @@
+.inline-edit form .form-control{
+    height:5em !important;
+}
+
+#formEditCommento{
+    display:none;
+}
+
+.comm0{
+    width:5%;
+}
+
+.comm1{
+    width:5%;
+}
+
+.comm2{
+    width:12%;
+}
+
+.comm3{
+    width:12%;
+}
+
+.comm5{
+    width:5%;
+}
+
+.comm6{
+    width:5%;
+}
+
+.bootswitch label{
+    margin-top:1.8em;
+}

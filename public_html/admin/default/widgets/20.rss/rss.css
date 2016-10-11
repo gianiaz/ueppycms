@@ -1,0 +1,19 @@
+.rss-list{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.panel-rss{
+    height:21em;
+    overflow:hidden;
+    padding:0;
+}
+
+.panel-rss li{
+    padding:1em;
+}
+
+.panel-rss hr{
+    margin:0;
+}

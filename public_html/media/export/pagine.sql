@@ -1,0 +1,9 @@
+-- File generato con php il 11-10-2016 17:22:18
+DROP TABLE IF EXISTS pagine;
+CREATE TABLE `pagine` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `commenti` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=306 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+INSERT IGNORE INTO `pagine` VALUES ("305","0");

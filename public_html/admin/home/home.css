@@ -1,0 +1,26 @@
+.dt0{
+    width:5%;
+}
+
+.dt1{
+    width:10%;
+}
+
+.dt2{
+    width:25%;
+}
+
+.dt3{
+    width:60%;
+}
+
+.editArea{
+    background-color:#cecece;
+    color:#666;
+    font-family:courier;
+    font-size:12px;
+    width:90%;
+    height:400px;
+    border:2px solid #666;
+    padding:10px;
+}

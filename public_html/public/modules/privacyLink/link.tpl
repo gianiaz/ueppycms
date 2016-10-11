@@ -1,0 +1,1 @@
+<a href="{$widgetData.a_href}"{if $widgetData.a_class} class="{$widgetData.a_class}"{/if}>{getLang module="default" key="PRIVACY"}</a>

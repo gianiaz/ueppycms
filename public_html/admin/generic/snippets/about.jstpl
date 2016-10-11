@@ -1,0 +1,36 @@
+<div class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title alert-danger" style="background:none">Informazioni su Ueppy CMS</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                    <div class="row">
+                        Versione : 4.00
+                    </div>
+                    <div class="row">
+                        copyright da scrivere
+                    </div>
+                    <div class="row">
+                        Supporto
+                        <br/>
+                        Tel: 800.974.469
+                        <br/>
+                        E-mail: <a href="mailto:info@ueppy.com">info@ueppy.com</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-cancel" data-dismiss="modal"><i
+                        class="fa fa-close"></i> Chiudi
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+/***ueppy3.1.00***/
+#mapcontainer {
+  display:none;
+}
+
+#mapcontainer .mapFieldsContainer .instructions h1 { font-size:14px; margin-top:0px;}
+#mapcontainer .mapFieldsContainer .instructions ol { margin: 4px 0; padding:0 16px; font-size:11px}
+#mapcontainer .mapFieldsContainer .instructions { margin:0 0 10px 0;  font-size:11px; padding:6px; border:1px solid #cecece;}
+#mapcontainer .mappa {
+  width:475px;
+  height:475px;
+  border:1px solid black;
+  float:left;
+  margin-right:10px;
+}
+
+#mapcontainer .mapFieldsContainer {
+  float:left;
+  width:220px;
+}
+#mapcontainer .mapFieldsContainer label {
+  display:block;
+  height:24px;
+}
+#mapcontainer .mapFieldsContainer label span {
+  width:100px!important;
+  display:block;
+  float:left;
+}
+#mapcontainer .mapFieldsContainer label input {
+  width:118px!important;
+  text-align:right;
+}
+#mapcontainer .mapFieldsContainer textarea {
+  width:100%;
+  height:50px;
+  margin-bottom:10px;
+}
+
+#mapTrigger {
+  margin-bottom:10px;
+  display:none;
+}
+
+#centerCoords, #centerAddr {
+  margin-bottom:10px;
+  width:100%;
+  
+}
+

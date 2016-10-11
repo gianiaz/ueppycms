@@ -1,0 +1,18 @@
+{
+  "generali": [
+    {
+      "help": "Spunta per abilitare debug, solo per intenditori!",
+      "type": "boolean",
+      "label": "Abilita debug",
+      "default": 0,
+      "var": "debug"
+    }
+  ],
+  "multilingua": [
+  ],
+  "meta": {
+    "nome": "Link Privacy",
+    "info": "Con questo modulo è possibile inserire automaticamente il link alla pagina privacy se configurata internamente, oppure il link IUBENDA nel caso sia attivato il servizio",
+    "author": "Giovanni Battista Lenoci - gianiaz@gmail.com"
+  }
+}

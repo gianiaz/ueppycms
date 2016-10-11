@@ -1,0 +1,25 @@
+{
+  "generali": [
+    {
+      "help": "Spunta per evitare il caching del modulo, ricordati di attivarlo se usi l'ordinamento casuale",
+      "type": "boolean",
+      "label": "Disabilitare cache",
+      "default": 0,
+      "var": "no_cache"
+    },
+    {
+      "help": "Spunta per abilitare debug, solo per intenditori!",
+      "type": "boolean",
+      "label": "Abilita debug",
+      "default": 0,
+      "var": "debug"
+    }
+  ],
+  "multilingua": [
+  ],
+  "meta": {
+    "nome": "Breadcrumb",
+    "info": "Mostra il percorso in cui ci si trova",
+    "author": "Giovanni Battista Lenoci - gianiaz@gmail.com"
+  }
+}

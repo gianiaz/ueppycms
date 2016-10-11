@@ -1,0 +1,92 @@
+.dt0{
+    width:5%;
+}
+
+.dt1{
+    width:5%;
+}
+
+.dt2{
+    width:55%;
+}
+
+.dt3{
+    width:30%;
+}
+
+.dt5{
+    width:5%;
+}
+
+.links{
+    display:none;
+}
+
+.plus{
+    float:right;
+    cursor:pointer;
+}
+
+.rowTpl{
+    display:none;
+}
+
+.dts0{
+    width:5%;
+}
+
+.dts1{
+    width:5%;
+}
+
+.dts2{
+    width:85%;
+}
+
+.dts3{
+    width:5%;
+}
+
+#new_stile{
+    display:none;
+}
+
+/*
+#new_stile {
+  display:none;
+}
+.col1 {
+  width:94%;
+}
+.col2 {
+  width:3%;
+}
+.col3 {
+  width:3%;
+}
+.links {
+  display:none;
+}
+.row {
+  display:none;
+}
+.elenco_links {
+  width:600px;
+}
+.elenco_links thead tr td {
+  font-weight:bold;
+}
+.elenco_links thead tr td {
+  width:50%;
+}
+.elenco_links thead tr td input {
+  width:95%!important;
+}
+.elenco_links tr td input {
+    height:22px !important;
+    padding:3px;
+
+}
+#markup {
+  height:200px;
+}*/

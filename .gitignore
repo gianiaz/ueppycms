@@ -1,0 +1,11 @@
+ueppy-stats-39811a8013c7.json
+logs/
+utility/
+bower_components/
+vendor/
+public_html/.htaccess
+public_html/media/cache/
+public_html/media/operatori/
+public_html/media/smarty/
+.idea/
+public_html/conf/config.php

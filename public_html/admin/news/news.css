@@ -1,0 +1,71 @@
+.elenco_tags{
+    display:none;
+    padding:1em 0;
+}
+
+#tagPrecenti{
+    margin-top:1.8em;
+}
+
+.elenco_tags .label{
+    cursor:pointer;
+}
+
+.seo0{
+    width:5%;
+    text-align:center;
+}
+
+.seo1{
+    width:10%;
+    text-align:center;
+}
+
+.seo2{
+    width:25%;
+}
+
+.seo3{
+    width:25%;
+}
+
+.seo4{
+    width:25%;
+}
+
+.seo5{
+    width:15%;
+    text-align:center;
+}
+
+.inline-edit form .form-control{
+    height:5em !important;
+}
+
+#formEditCommento{
+    display:none;
+}
+
+.comm0{
+    width:5%;
+}
+
+.comm1{
+    width:5%;
+}
+
+.comm2{
+    width:12%;
+}
+
+.comm3{
+    width:12%;
+}
+
+.comm5{
+    width:5%;
+}
+
+.comm6{
+    width:5%;
+}

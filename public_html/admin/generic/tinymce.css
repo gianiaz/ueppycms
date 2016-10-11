@@ -1,0 +1,15 @@
+body {
+    font-size: 1em;
+    color: #555;
+}
+
+.edit {
+    border: 2px dotted #666;
+    padding: 10px;
+}
+
+.mce-i-mailfield {
+    background: url('/images/envelope.png');
+    height: 16px;
+    width: 16px;
+}

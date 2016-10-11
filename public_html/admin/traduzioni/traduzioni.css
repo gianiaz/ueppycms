@@ -1,0 +1,39 @@
+#modal_box{
+    display:none;
+}
+
+.dt0{
+    width:5%;
+}
+
+.dt1{
+    width:5%;
+}
+
+.dt2{
+    width:5%;
+}
+
+.dt3{
+    width:10%;
+}
+
+.dt4{
+    width:7%;
+}
+
+.dt5{
+    width:10%;
+}
+
+.lang{
+    width:8.8%;
+}
+
+#modal{
+    display:none;
+}
+
+.dataTable_wrapper{
+    font-size:0.8em;
+}

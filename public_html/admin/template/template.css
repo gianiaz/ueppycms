@@ -1,0 +1,134 @@
+.dt0{
+    width:5%;
+}
+
+.dt1{
+    width:5%;
+}
+
+.dt2{
+    width:85%;
+}
+
+.dt3{
+    width:5%;
+}
+
+.widget{
+    width:100%;
+    position:relative;
+    height:3.2em;
+    display:block;
+    font-size:1em;
+    border-radius:0.25em;
+    border:1px solid #666;
+    padding:0.25em;
+    margin-bottom:0.25em;
+    background-color:#fff;
+}
+
+.avail{
+    width:24%;
+    font-size:1em;
+    position:relative;
+    height:3.2em;
+    float:left;
+    border-radius:0.25em;
+    border:1px solid #666;
+    padding:0.25em;
+    margin:0 1% 0.5em 0;
+    background-color:#fff;
+}
+
+.main{
+    background-color:#dff0d8;
+    color:#3c763d;
+    border-color:#3c763d;
+}
+
+.avail .anchor, .widget .anchor{
+    height:2.6em;
+    line-height:1.8em;
+}
+
+.avail .infoModulo{
+    position:absolute;
+    right:0.5em;
+}
+
+.widget .btn, .avail .btn{
+    width:2.8em;
+}
+
+.widget .delModulo{
+    position:absolute;
+    right:0.5em;
+}
+
+.widget .infoModulo{
+    position:absolute;
+    right:3.8em;
+}
+
+.widget .anchor{
+    left:0.5em;
+    position:absolute;
+}
+
+.widget span, .avail span{
+    line-height:2.4em;
+    margin-right:0.5em;
+    left:4.5em;
+    position:absolute;
+}
+
+.widget .vista .form-control{
+    width:50%;
+    position:absolute;
+    right:0;
+}
+
+.widget .settingsModulo{
+    position:absolute;
+    right:7.1em;
+}
+
+.vista{
+    position:absolute;
+    right:12.8em;
+    width:20em;
+}
+
+.vista span{
+    position:absolute;
+    left:0;
+}
+
+.sortPlaceholder{
+    height:3.2em;
+    border:2px dotted #FFAF0F;
+    border-radius:6px;
+}
+
+#modal2{
+    display:none;
+}
+
+#newWidget{
+    float:right;
+    margin-top:1em;
+}
+
+.wdH2{
+    float:left;
+}
+
+.dyn{
+    color:#8a6d3b;
+    border-color:#8a6d3b;
+    background-color:#fcf8e3;
+}
+
+#copyFrom{
+    margin-top:1.8em;
+}

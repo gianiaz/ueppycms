@@ -1,0 +1,83 @@
+{
+  "generali": [
+    {
+      "help": "Id della pagina genitore da cui estrarre gli elementi del menu. Inserire la parola chiave GET per usare il menu in cui viene caricata la pagina come riferimento per le successive estrazioni.",
+      "type": "text",
+      "label": "Id genitore",
+      "default": 0,
+      "var": "id_genitore"
+    },
+    {
+      "help": "Solo nel caso in cui id_genitore è uguale a GET indica un id a cui risalire per estrarre questo menu. Utile se nelle sottopagine vogliamo estrarre sempre lo stesso menu figlio della pagina genitore. Di default impostato a -1 estrae solo le figlie della pagina indicata",
+      "type": "text",
+      "label": "ID risalita",
+      "default": -1,
+      "var": "ripercorriFinoAGenitore"
+    },
+    {
+      "help": "Indica il livello del menu da mostrare (100 per menu alto - 105 per menu medio - 110 per menu basso)",
+      "type": "text",
+      "label": "Livello",
+      "default": 100,
+      "var": "level"
+    },
+    {
+      "type": "text",
+      "label": "Classe HTML Attiva",
+      "help": "Classe da assegnare all'elemento attivo",
+      "default": "",
+      "var": "activeclass"
+    },
+    {
+      "type": "boolean",
+      "label": "Estrai Figli",
+      "help": "Spunta per estrarre anche le figlie e permettere la creazione di un menu multilivello",
+      "default": 0,
+      "var": "estraiFigli"
+    },
+    {
+      "type": "boolean",
+      "label": "Usa immagini",
+      "help": "Usa immagini nei menu",
+      "default": 1,
+      "var": "usaImg"
+    },
+    {
+      "type": "boolean",
+      "label": "Disabilita Cache",
+      "help": "Spunta per evitare il caching del modulo; ricordati di attivarlo se usi l'ordinamento casuale.",
+      "default": 0,
+      "var": "no_cache"
+    },
+    {
+      "type": "boolean",
+      "label": "Abilita debug",
+      "help": "Spunta per abilitare debug, solo per intenditori",
+      "default": 0,
+      "var": "debug"
+    }
+  ],
+  "multilingua": [
+    {
+      "type": "text",
+      "label": "Titolo",
+      "help": "Inserisci un titolo per il modulo nelle diverse lingue",
+      "default": "",
+      "var": "title"
+    },
+    {
+      "type": "text",
+      "label": "Link titolo",
+      "help": "Inserisci un url a cui linkare in caso di click sul titolo",
+      "default": "",
+      "var": "link"
+    }
+  ],
+  "meta": {
+    "nome": "Menu automatico",
+    "info": "Modulo per l'estrazione di un menu dinamico a partire da paremtri legati al genitore e al livello della pagina",
+    "author": "Giovanni Battista Lenoci - gianiaz@gmail.com",
+    "duplicabile": 1,
+    "var": "meta"
+  }
+}

@@ -1,0 +1,44 @@
+/* Variabili che non sapevo dove mettere */
+@import "ueppy";
+/* VARIABILI del tema, volendo si può non importare e usare il tema di default
+Temi disponibili:
+cerulean, cosmo, cyborg, darkly, flatly, journal, lumen, paper,
+readable, sandstone, simplex, slate, spacelab, superhero, united, yeti, */
+@import "../../bower_components/bootswatch/slate/_variables.scss";
+/* Bootstrap */
+@import "bootstrap";
+/* Tema, va insieme alle sue variabili, anche questo volendo si può escludere */
+@import "../../bower_components/bootswatch/slate/bootswatch";
+/* Datetime picker */
+@import "bootstrap-datetimepicker-build";
+/* Treeview, viene usato nella gestione menu, quando si cambia il genitore di una pagina */
+@import "bootstrap-treeview";
+/* Foglio di stile aggiuntivo per rendere il plugin datatables responsive */
+@import "responsive.dataTables";
+/* Per i grafici nella dashboard */
+@import "morris";
+/* Trasforma i checkbox in interruttori, usato ad esempio in testa alla gestione traduzioni */
+@import "bootstrap-switch";
+/* Aggiunge il più e il meno di fianco ad un campo input numerico, ad esempio nelle etichette prodotto */
+@import "jquery.bootstrap-touchspin";
+/* Plugin pnotify, quello che compare in alto a destra nei fomr di inserimento per mostrare
+   lo stato del salvataggio */
+@import "pnotify.buttons";
+@import "pnotify";
+/* Il menu a destra globale per tutto il pannello amministrativo */
+@import "metisMenu";
+/* Il tema html che usiamo per il pannello di controllo */
+@import "sb-admin-2";
+/* Il plugin per la gestione delle tabelle nelle pagine di elenco */
+@import "datatables.subset";
+@import "dataTables.bootstrap";
+/* Foglio di stile per la timeline, usata nella scheda delle richieste informazioni per mostrare
+   la conversazione */
+@import "timeline";
+/* Plugin per mostrare una demo delle funzionalità, per ora implementata nelle sole sezioni
+   seo di pagine, news, menu */
+@import "tourist";
+/* Regole per il widget allegati */
+@import "regole-allegati";
+/* Css aggiuntivo creato da me per il cms */
+@import "cms";

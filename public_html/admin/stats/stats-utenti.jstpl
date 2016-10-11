@@ -1,0 +1,9 @@
+<h4>{{UTENTI}}</h4>
+<ul class="list-group">
+    <li class="list-group-item"><span class="badge">{{totali}}</span>
+        {{UTENTI_TOTALI}}
+    </li>
+    <li class="list-group-item"><span class="badge">{{nuovi}}</span>
+        {{NUOVI}}
+    </li>
+</ul>
