@@ -1,4 +1,4 @@
--- File generato con php il 11-10-2016 17:22:18
+-- File generato con php il 11-10-2016 18:13:07
 DROP TABLE IF EXISTS pagine_gruppi_auth;
 CREATE TABLE `pagine_gruppi_auth` (
   `gruppi_id` int(11) NOT NULL,

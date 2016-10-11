@@ -1,4 +1,4 @@
--- File generato con php il 11-10-2016 17:22:18
+-- File generato con php il 11-10-2016 18:13:07
 DROP TABLE IF EXISTS news_category_langs;
 CREATE TABLE `news_category_langs` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

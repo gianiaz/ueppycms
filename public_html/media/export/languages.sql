@@ -1,4 +1,4 @@
--- File generato con php il 11-10-2016 17:22:18
+-- File generato con php il 11-10-2016 18:13:07
 DROP TABLE IF EXISTS languages;
 CREATE TABLE `languages` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
